@@ -1,18 +1,22 @@
 body{
     background-color: hsl(84, 100%, 81%);
-    box-shadow: 10px 10px black;
     width: fit-content;
-    margin: 40px;
 }
 .first{
     background-color: #ccff7f;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px black;
+    margin: 40px;
 }
 .second{
     background-color: #ccff7f;
     font-family: 'Courier New', Courier, monospace;
+    box-shadow: 10px 10px black;
+    margin: 40px;
 }
 .third{
     background-color: #ccff7f;
     font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px 10px black;
+    margin: 40px;
 }
