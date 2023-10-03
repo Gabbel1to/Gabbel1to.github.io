@@ -1,6 +1,6 @@
 body{
     background-color: hsl(84, 100%, 81%);
-    width: 40%;
+    width: fit-content;
 }
 .first{
     background-color: #ccff7f;
