@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(255, 169, 169);
+}
+div{
+    background-image: -moz-linear-gradient(rgb(255, 169, 169), rgb(255, 10, 10));
+    box-shadow: 10px 10px black;
+    margin: 40px;
+}
+.first{
+    
+}
+.second{
+    
+}
+.third{
+
+}
+.fourth{
+    
+}
