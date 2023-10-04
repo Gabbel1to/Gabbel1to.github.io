@@ -8,6 +8,9 @@ div{
     box-shadow: 10px 10px black;
     padding: 20px;
 }
+.biggest{
+    font-family: 'Courier New', Courier, monospace;
+}
 .small{
     font-size: 0.5em;
 }
