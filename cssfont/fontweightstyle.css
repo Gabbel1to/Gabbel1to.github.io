@@ -1,5 +1,6 @@
 body{
     background-color: rgb(255, 169, 169);
+    width: fit-content;
 }
 div{
     background-image: -moz-linear-gradient(rgb(255, 169, 169), rgb(255, 10, 10));
@@ -7,14 +8,26 @@ div{
     margin: 40px;
 }
 .first{
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 .second{
-    
+    font-family: 'Courier New', Courier, monospace;
 }
 .third{
-
+    font-family: 'Times New Roman', Times, serif;
 }
 .fourth{
     
+}
+.light{
+    font-weight: 200;
+}
+.normal{
+    font-weight: 400;
+}
+.bold{
+    font-weight: 700;
+}
+.bolder{
+    font-weight: 900;
 }
