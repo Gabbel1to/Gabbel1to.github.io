@@ -4,20 +4,22 @@ body{
 }
 div{
     background-image: -moz-linear-gradient(rgb(255, 169, 169), rgb(255, 10, 10));
-    box-shadow: 10px 10px black;
     margin: 40px;
 }
 .first{
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px black;
 }
 .second{
     font-family: 'Courier New', Courier, monospace;
+    box-shadow: 10px 10px black;
 }
 .third{
     font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px 10px black;
 }
 .fourth{
-    
+    box-shadow: 10px 10px black;
 }
 .light{
     font-weight: 200;
