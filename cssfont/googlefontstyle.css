@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lumanosimo&family=Texturina:opsz@12..72&display=swap');
 
 body{
-
+    background-color: rgb(255, 231, 185);
 }
 .luma{
-
+    font-family: 'Lumanosimo', cursive;
 }
 .textur{
-
+    font-family: 'Textur', cursive;
 }
 .bungee{
-    
+    font-family: 'Bungee Spice', cursive; 
+}
+p{
+    background-color: rgb(253, 193, 82);
+    box-shadow: 5px 5px black;
+    margin: 40px;
+    padding: 20px;
 }
