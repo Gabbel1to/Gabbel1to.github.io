@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Great+Vibes&family=VT323&display=swap');
+
 body{
     background-color: aqua;
     width: fit-content;
@@ -12,13 +14,16 @@ p{
     font-size: large;
 }
 .green{
+    font-family: 'Great Vibes', cursive;
     color: green;
     text-shadow: 1px 1px 2px black, 0 0 20px blue, 0 0 7px darkblue;
 }
 .coal{
+    font-family: 'Cabin Sketch', cursive;
     text-shadow: 4px 4px 4px #666666;
 }
 .horange{
+    font-family: 'VT323', monospace;
     color: coral;
     text-shadow: 0 0 10px #00ff00;
 }
