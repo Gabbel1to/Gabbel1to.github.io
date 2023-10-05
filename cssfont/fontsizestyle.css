@@ -4,13 +4,13 @@ body{
     width: fit-content;
 }
 div{
-    background-image: -moz-linear-gradient(powderblue, rgb(13, 204, 230));
     box-shadow: 10px 10px black;
     padding: 20px;
     margin: 80px;
 }
 .biggest{
     font-family: 'Courier New', Courier, monospace;
+    background-image: -moz-linear-gradient(powderblue, rgb(13, 204, 230));
 }
 .small{
     font-size: 0.5em;
