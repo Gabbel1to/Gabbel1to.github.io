@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Great+Vibes&family=VT323&display=swap');
 
 body{
-    background-color: aqua;
+    background-color: rgb(170, 255, 255);
     width: fit-content;
 }
 p{
-    background-color: rgb(98, 98, 228);
+    background-color: rgb(186, 186, 255);
     box-shadow: 5px 5px black;
     margin: 40px;
     padding: 20px;
 }
 .large{
-    font-size: large;
+    font-size: x-large;
 }
 .green{
     font-family: 'Great Vibes', cursive;
