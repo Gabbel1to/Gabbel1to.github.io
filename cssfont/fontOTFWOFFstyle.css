@@ -15,12 +15,16 @@ body{
     box-shadow: 5px 5px black;
     margin: 40px;
     padding: 20px;
-    font-family: 'myRistretto', sans-serif;
 }
 .mayestica{
     background-color: lightgreen;
     box-shadow: 5px 5px black;
     margin: 40px;
     padding: 20px;
+}
+.ristreFont{
+    font-family: 'myRistretto', sans-serif;
+}
+.mayeFont{
     font-family: 'myMayestica', cursive;
 }
