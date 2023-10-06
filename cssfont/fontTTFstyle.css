@@ -1,5 +1,5 @@
 @font-face {
-    font-family: myMickeys;
+    font-family: myMickey;
     src: url(Mickeys\ Merry\ Christmas.ttf);
     
 @font-face {
@@ -16,10 +16,11 @@ body{
     font-family: 'myRoboto', sans-serif;
 }
 p{
+    background-color: rgb(43, 175, 43);
     box-shadow: 5px 5px black;
     margin: 20px;
     padding: 20px;
 }
 .mickey{
-    font-family: 'myMickeys', sans-serif;
+    font-family: 'myMickey', sans-serif;
 }
