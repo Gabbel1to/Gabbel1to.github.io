@@ -1,0 +1,26 @@
+@font-face {
+    font-family: myRistretto;
+    src: url(ristretto.woff);
+}
+@font-face {
+    font-family: myMayestica;
+    src: url(Mayestica.otf);
+}
+body{
+    background-color: rgb(187, 248, 187);
+    width: fit-content;
+}
+.ristretto{
+    background-color: lightgreen;
+    box-shadow: 5px 5px black;
+    margin: 40px;
+    padding: 20px;
+    font-family: 'myRistretto', sans-serif;
+}
+.mayestica{
+    background-color: lightgreen;
+    box-shadow: 5px 5px black;
+    margin: 40px;
+    padding: 20px;
+    font-family: 'myMayestica', cursive;
+}
