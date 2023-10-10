@@ -1,3 +1,20 @@
 body{
-    
+    background-color: darkgreen;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: red;
+}
+a:hover{
+    color: darkblue;
+    border: 3px lightblue;
+}
+a:focus{
+    background-color: darkblue;
+    border: 3px white, 1px darkblue, 1px white;
+}
+div{
+    border-radius: 5px;
+    border: 5px solid white;
 }
