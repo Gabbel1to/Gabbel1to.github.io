@@ -1,0 +1,20 @@
+body{
+    background-color: #deff9c;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+a{
+    float: left;
+}
+a:link{
+    color: yellowgreen;
+}
+a:visited{
+    color: darkgreen;
+}
+a:focus{
+    
+}
+a:hover{
+
+}
