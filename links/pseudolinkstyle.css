@@ -7,6 +7,7 @@ a{
     float: left;
     outline: none;
     text-decoration: none;
+    padding: 4em;
 }
 a:link{
     color: yellowgreen;
