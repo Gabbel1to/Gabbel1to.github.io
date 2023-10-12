@@ -1,0 +1,29 @@
+body{
+    background-color: greenyellow;
+}
+a:hover{
+    background-color: grey;
+
+}
+div{
+    background-color: lightgrey;
+    text-align: center;
+    border: 2px solid lightslategrey;
+    padding-top: 20px;
+}
+.red{
+    border-left: 5px solid red;
+    border-style: ridge;
+}
+.yellow{
+    border-left: 5px solid yellow;
+    border-style: ridge;
+}
+.blue{
+    border-left: 5px solid blue;
+    border-style: ridge;
+}
+.green{
+    border-left: 5px solid green;
+    border-style: ridge;
+}
