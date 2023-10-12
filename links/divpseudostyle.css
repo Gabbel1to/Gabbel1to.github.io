@@ -6,11 +6,11 @@ body{
 h1{
     color: red;
 }
-a:hover{
+div:hover{
     color: darkblue;
     border: 3px lightblue;
 }
-a:focus{
+div:focus{
     background-color: darkblue;
     border: 3px white, 1px darkblue, 1px white;
 }
