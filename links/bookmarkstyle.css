@@ -7,3 +7,6 @@ body{
 #start{
     display: block;
 }
+a{
+    margin: 20px;
+}
