@@ -4,9 +4,7 @@ body{
     width: 40vh;
     padding: 20px;
 }
-#start{
-    display: block;
-}
 a{
     margin: 20px;
+    display: block;
 }

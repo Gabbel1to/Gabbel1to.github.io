@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(209, 250, 147);
+    width: 40vh;
+    padding: 20px;
+}
+a{
+    margin: 10px;
+    float: left;
+    word-spacing: 20px;
+}
