@@ -4,3 +4,6 @@ body{
     width: 20vh;
     padding: 20px;
 }
+#start{
+    display: block;
+}
