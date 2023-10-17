@@ -3,5 +3,8 @@ body{
     float: left;
 }
 div{
+    float: left;
+}
+a{
     display: block;
 }
