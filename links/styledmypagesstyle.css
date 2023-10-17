@@ -6,10 +6,13 @@ div{
     float: left;
     margin: 30px;
     width: 200px;
+    background-color: orange;
+    align-items: center;
 }
 a{
     display: block;
     width: 160px;
     border: 3px solid rgb(158, 133, 79);
     border-radius: 15px;
+    text-align: center;
 }
