@@ -9,8 +9,8 @@ div{
     width: 200px;
     background-color: orange;
     align-items: center;
-    box-shadow: 3xp 3px black;
-    
+    box-shadow: 3px 3px black;
+    font-weight: bold;
 }
 a{
     display: block;
@@ -19,6 +19,8 @@ a{
     border-radius: 15px;
     text-align: center;
     padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 a:hover{
     background-color: black;
