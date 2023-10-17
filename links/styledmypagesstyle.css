@@ -1,4 +1,7 @@
 body{
     background-color: rgb(229, 201, 147);
-    
+    float: left;
+}
+div{
+    display: block;
 }
