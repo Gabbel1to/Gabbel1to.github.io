@@ -10,4 +10,6 @@ div{
 a{
     display: block;
     width: 160px;
+    border: 3px solid rgb(158, 133, 79);
+    border-radius: 15px;
 }
