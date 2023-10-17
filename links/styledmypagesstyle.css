@@ -4,11 +4,12 @@ body{
     float: left;
 }
 div{
+    text-align: center;
+    align-items: center;
     float: left;
     margin: 15px;
     width: 200px;
     background-color: orange;
-    align-items: center;
     box-shadow: 3px 3px black;
     font-weight: bold;
     height: 600px;
