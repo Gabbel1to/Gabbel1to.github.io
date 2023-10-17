@@ -4,7 +4,6 @@ body{
     float: left;
 }
 div{
-    text-align: center;
     align-items: center;
     float: left;
     margin: 15px;
@@ -30,4 +29,7 @@ a:hover{
 }
 h2, h1{
     color: black;
+}
+h2{
+    text-align: center;
 }
