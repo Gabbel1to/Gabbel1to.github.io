@@ -11,7 +11,7 @@ div{
     align-items: center;
     box-shadow: 3px 3px black;
     font-weight: bold;
-    height: max-content;
+    height: 50vw;
 }
 a{
     display: block;
