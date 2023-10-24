@@ -1,0 +1,21 @@
+body{
+    background-color: lightgreen;
+}
+table{
+    background-color: lightgreen;
+    border: 2px solid blue;
+    box-shadow: 3px 3px black;
+}
+thead{
+    color: red;
+    font-weight: bold;
+}
+tfoot{
+    color: purple;
+}
+caption{
+    font-style: italic;
+}
+th{
+    border: 1px solid green;
+}
