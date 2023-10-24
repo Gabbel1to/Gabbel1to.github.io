@@ -15,7 +15,11 @@ tfoot{
 }
 caption{
     font-style: italic;
+    padding: 10px;
+    caption-side: top;
 }
 th{
     border: 1px solid green;
+    padding: 10px;
+    text-align: center;
 }
