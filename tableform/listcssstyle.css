@@ -9,6 +9,13 @@ ol, ul{
     padding: 30px;
     width: 35vw;
 }
+dl{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    padding: 30px;
+    width: 30vw;
+}
 #roman{
     list-style: upper-roman;
 }
