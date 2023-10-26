@@ -4,10 +4,10 @@ body{
 h1, h2{
     font-weight: bold;
 }
-ol, ul, dl{
+ol, ul{
     border: 2px solid blue;
-    margin: 5px;
     padding: 30px;
+    width: 45vw;
 }
 #roman{
     list-style: upper-roman;
