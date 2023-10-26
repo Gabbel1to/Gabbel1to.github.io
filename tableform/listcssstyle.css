@@ -6,8 +6,8 @@ h1, h2{
 }
 ol, ul, dl{
     border: 2px solid blue;
-    margin: 20px;
-    padding: 20px;
+    margin: 5px;
+    padding: 30px;
 }
 #roman{
     list-style: upper-roman;
