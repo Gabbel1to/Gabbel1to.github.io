@@ -19,3 +19,13 @@ dl{
 #roman{
     list-style: upper-roman;
 }
+#none{
+    list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+#sans{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#square{
+    list-style-type: square;
+}
