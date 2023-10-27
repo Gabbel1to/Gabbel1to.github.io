@@ -1,0 +1,17 @@
+body{
+    background-color: lightgreen;
+    color: blue;
+}
+h1{
+    font-weight: bold;
+}
+label{
+    display: inline-block;
+}
+#uname, #pword{
+    border-top:2px solid grey;
+    border-left: 2px solid gray;
+    border-bottom: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    width: 15%;
+}
