@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <title>Math example</title>
+        <script>
+            function infinity(){
+                var tal=document.getElementByld("myTal").value/0;
+                alert(tal);
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <label for="myTal">Tal1:</label><input type="text" id="myTal" value="9">
+        </form>
+        <p>Klicka på knappen att se hur mycket är Tal1/0.</p>
+        <button onclick="infinity()">Div med 0</button>
+    </body>
+</html>
