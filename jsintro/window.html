@@ -5,15 +5,15 @@
         <title>Window</title>
     </head>
     <body>
-        <a href="www.aftonbladet.se" target="_blank">Aftonbladet</a>
+        <a href="www.aftonbladet.se">Aftonbladet</a>
         <script>
-            window.onload= function() {
+            window.onload= function(){
                 alert("webbsidan är laddat ");
-                }
-                window.onbeforeunload = function (event) {
+            }
+            window.onbeforeunload = function (event){
                 event.preventDefault();
                 return (event.ReturnValue == "");
-                }
+            }
         </script>
     </body>
 </html>
