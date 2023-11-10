@@ -8,12 +8,12 @@
         <script>
             document.write("Text med for loop<br/>");
             let text = "Detta kan gå åt helvette, men jag vet inte.";
-            for (let i = 0; i < text.length-1; i++){
+            for (let i = 0; i < text.length-2; i++){
                 document.write(text.substring(i, i+1) + "-");
             }
             document.write("<br/>Text med while loop<br/>");
             let i = 0;
-            while (i < text.length-1){
+            while (i < text.length-2){
                 document.write(text.substring(i, i+1) + "-");
                 i++;
             }
