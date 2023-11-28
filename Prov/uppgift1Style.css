@@ -38,4 +38,8 @@ th{
     color: blue;
     border-spacing: 5px;
     display: block;
+    width: 200px;
+    height: fit-content;
+    margin: 30px;
+    padding: 20px;
 }
