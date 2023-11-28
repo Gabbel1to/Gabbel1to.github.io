@@ -33,3 +33,8 @@ th{
 .left{
     float: left;
 }
+#fancybox{
+    border: 2px solid green;
+    color: blue;
+    border-spacing: 5px;
+}
