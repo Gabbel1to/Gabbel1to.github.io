@@ -1,6 +1,9 @@
 body{
     background-color: lightgreen;
 }
+h1{
+    padding: 40px;
+}
 table{
     background-color: lightgreen;
     border: 2px solid blue;
