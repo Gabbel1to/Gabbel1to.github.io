@@ -4,12 +4,30 @@
         <meta charset="utf-8">
         <title>Array</title>
         <script>
+	    function skrivUt(element)
+            {
+                document.write("Stad "+element+"<br/>");
+            }
             var cities=["Dubai","Paris","Mumbai","Dallas","Houston","Madrid"];
-            var city=prompt("Question","Default text");
-            array_namn.push(city);
-            array.forEach(element => {
-                document.write("Stad "+element);
-            });
+	    for(i = 0; i < 3; i++){
+                var city=prompt("Skriv in en stad","Happaranda"); 
+		cities.push(city);
+           }
+	    document.write("<br/>Array after push<br/>");
+           
+            cities.forEach(skrivUt);
+	    document.write("<br/>Array after pop<br/>");
+            cities.pop(city);
+            cities.forEach(skrivUt);
+	    document.write("<br/>Array after shift<br/>");
+            cities.shift(city);
+            cities.forEach(skrivUt);
+	    document.write("<br/>Array after splice<br/>");
+            cities.splice(city);
+            cities.forEach(skrivUt);
+	    document.write("<br/>Array after delete<br/>");
+            cities.delete(city);
+            cities.forEach(skrivUt);
         </script>
     </head>
     <body>
