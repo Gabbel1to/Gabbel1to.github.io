@@ -20,7 +20,8 @@ caption{
     caption-side: top;
 }
 th{
-    border: 1px solid green;
+    border-top: 1px solid green;
+    border-right: 1px solid green;
     padding: 5px;
     margin: 5px;
     text-align: center;
