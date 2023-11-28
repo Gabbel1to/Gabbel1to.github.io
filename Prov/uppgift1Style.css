@@ -30,3 +30,6 @@ th{
     text-align: center;
     border-spacing: 3px;
 }
+.left{
+    float: left;
+}
