@@ -5,6 +5,7 @@ table{
     background-color: lightgreen;
     border: 2px solid blue;
     border-spacing: 1px;
+    margin: 40px;
 }
 thead{
     color: red;
