@@ -5,22 +5,21 @@
         <title>Felx basis relative</title>
         <style>
             .container{
-                
+                border: 5px solid black;
+                border-radius: 18px;
+                background-color: yellow;
+                color: white;
+                flex-wrap: nowrap;
             }
             .odd{
-
+                display: flex;
+                flex: 1 1 auto;
             }
             .even{
-
+                flex: 2 1 auto;
             }
-            .even second{
-
-            }
-            .odd fifth{
-
-            }
-            .even eight{
-
+            .even second, .odd fifth, .even eight{
+                flex: 4 1 auto;
             }
         </style>
     </head>
