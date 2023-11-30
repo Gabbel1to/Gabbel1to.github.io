@@ -5,31 +5,26 @@
         <title>Felx basis relative</title>
         <style>
             .container{
-                flex-wrap: wrap;
                 display: flex;
-                justify-content: flex-start;
+                flex-wrap: wrap;
+                justify-content: space-between;
                 text-align: center;
+            }
+            .container > div{
+                font-size: 5em;
+                color: white;
+                border-radius: 10px;
+                background: yellow;
+                border: 5px solid black;
             }
             .odd{
                 flex: 1 10%;
-                border: 2px solid black;
-                border-radius: 4px;
-                background-color: yellow;
-                color: white;
             }
             .even{
                 flex: 1 20%;
-                border: 2px solid black;
-                border-radius: 4px;
-                background-color: yellow;
-                color: white;
             }
             .second, .fifth, .eight{
                 flex: 1 40%;
-                border: 2px solid black;
-                border-radius: 4px;
-                background-color: yellow;
-                color: white;
             }
         </style>
     </head>
