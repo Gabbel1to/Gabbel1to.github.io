@@ -3,6 +3,37 @@
     <head>
         <meta charset="utf-8">
         <title>Flex order dir</title>
+        <style>
+            body{
+                background: lightcoral;
+            }
+            .header{
+                display: flex;
+                justify-content: center;
+                color: black;
+                background: maroon;
+                font-style: italic;
+                font-size: 3em;
+            }
+            .head{
+                display: flex;
+                justify-content: center;
+            }
+            .article{
+                background: cyan;
+                flex: 3 1 auto;
+                order: 2;
+            }
+            #news{
+                order: 1;
+            }
+            #contact{
+                order: 3;
+            }
+            .footer{
+                background: mediumslateblue;
+            }
+        </style>
     </head>
     <body>
         <p class="header">Hip & happening inline</p>
