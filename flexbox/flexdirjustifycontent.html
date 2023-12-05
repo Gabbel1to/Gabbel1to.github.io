@@ -4,29 +4,72 @@
         <meta charset="utf-8">
         <title>Felx Dir Justify Content</title>
         <style>
-            .header{
-                background: ;
-            }
-            .button{
-                float: left;
 
+            #main{
+                color: white;
+                display: flex;
+                flex-direction: column;
             }
-            .main{
+            #main h1{
+                margin-top: 1.5em;
+            }
+            .first{
+                font-family: Verdana, sans-serif;
+                background-color: #783F27;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            img{
+                height: 6em;
+            }
+            li{
+                text-transform: uppercase;
+                letter-spacing: .2em;
+                border: 1px solid;
+                border-radius: .5em;
+                width: 30%;
+                margin-left: 20px;
+                text-align: center;
+            }
+            .second{
+                font-family: 'Courier New', Courier, monospace;
                 background: no-repeat url("croissants.jpg");
                 display: flex;
-                background-size: 100vw 9vw;
+                justify-content: flex-end;
+                background-size: 100vw 9em;
+            }
+
+            @media screen and (min-width: 550px){
+                .first ul{
+                    flex-direction: row;
+                    justify-content: space-around;
+                }
+                .first{
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+                .second{
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                }
             }
         </style>
     </head>
     <body>
-        <div class="header">
-            <div class="button">MENU</div>
-            <div class="button">NEWS</div>
-            <div class="button">ABOUT</div>
-            <div class="button">CONTACT</div>
-        </div>
-        <div class="main">
-            <h1>Gabriels Bakery</h1>
-        </div>
+        <div id="main">
+            <div class="first">
+                <ul>
+                    <li>Menu <ion-icon name="menu"></ion-icon></li>
+                    <li>News <i class="fa-regular fa-newspapper" style="color: rgb(105, 88, 204);"></i></li>
+                    <li>About <i class="fas fa-database fa-2" style="color: rgb(82, 141, 58);"></i></li>
+                    <li>Contact <i class="fa-regular fa-address-book"></i></li>
+                </ul>
+                <img src="">
+            </div>
+            <div class="second">
+                <h1>Gabriels Bakery</h1>
+            </div>
     </body>
 </html>
