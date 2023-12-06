@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <title>Flex basis wrap order</title>
+        <style>
+            .body{
+                background: plum;
+            }
+            .wrapper{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .header{
+                background: rgb(224, 98, 98);
+                flex-basis: 100%;
+                text-align: center;
+            }
+            .main{
+                flex-grow: 3;
+                order: 2;
+                background: cyan;
+                text-align: left;
+                flex-basis: 0px;
+            }
+            .aside-1{
+                order: 1;
+                background: gold;
+            }
+            .aside-2{
+                order: 3;
+                background: hotpink;
+            }
+            .aside{
+                flex-grow: 1;
+                flex-basis: 0px;
+                text-align: center;
+            }
+            .footer{
+                background: lightgreen;
+                text-align: center;
+                order: 4;
+                flex-basis: 100%;
+            }
+            @media screen(max-width: 400px) {
+                .wrapper{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">Header</div><br>
+            <div class="main">
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                    Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. 
+                    Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p> 
+            </div> 
+            <div class="footer">Footer</div>
+            <div class="aside aside-1">Aside 1</div>
+            <div class="aside aside-2">Aside 2</div>
+        </div>            
+    </body>
+</html>
