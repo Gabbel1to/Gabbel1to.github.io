@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <title>Flex basis wrap order</title>
         <style>
-            @media screen and (max-width: 800px){
             .body{
                 background: plum;
             }
@@ -44,8 +43,6 @@
                 order: 4;
                 flex-basis: 100%;
             }
-            }
-            
             @media screen and (min-width: 400px) and (max-width: 800px) {
                 .wrapper{
                     display: flex;
@@ -62,10 +59,9 @@
 
                 }
             }
-            @media screen and (min-width: 400px) {
+            @media screen and (max-width: 400px) {
                 .wrapper{
                     display: flex;
-                    flex-wrap: wrap;
                     flex-direction: column;
                     justify-content: center;
                 }
@@ -87,11 +83,6 @@
                 }
                 .aside-2{
                     order: 3;
-                }
-                .footer{
-                    flex-basis: 100%;
-                    order: 4;
-                    text-align: center;
                 }
             }
         </style>
