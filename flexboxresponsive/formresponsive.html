@@ -16,29 +16,29 @@
                 margin: 40px;
                 padding: 30px;
             }
-            #name{
-
+            #name, #cityborn, #email{
+                flex: 1;
             }
-            #cityborn{
-
+            
+            @media all and(min-width: 400px){
+                #name, #cityborn, #email{
+                flex: 2;
             }
-            #email{
-
             }
-            @media screen and(max-width: 400px) {
-                
+            @media all and(min-width:700px){
+                #name, #cityborn, #email{
+                flex: 3;
             }
-            @media screen and(min-width: 400px)and(max-width: 700px) {
-                
             }
-            @media screen and(min-width:700px)and(max-width: 950px) {
-                
+            @media all and(min-width: 950px){
+                #name, #cityborn, #email{
+                flex: 4;
             }
-            @media screen and(min-width: 960px)and(max-width: 1200px) {
-                
             }
-            @media screen and(min-width: 1200px) {
-                
+            @media all and(min-width: 1200px) {
+                #name, #cityborn, #email{
+                flex: 5;
+            }
             }
         </style>
     </head>
