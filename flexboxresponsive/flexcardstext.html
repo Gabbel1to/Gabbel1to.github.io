@@ -12,6 +12,7 @@
             .wrapper{
                 display: flex;
                 flex-direction: column-reverse;
+                flex-wrap: wrap;
             }
             .wrapper > *{
                 box-shadow: 5px 5px black;
@@ -27,7 +28,6 @@
             }
             .aside-1{
                 background: yellow;
-                align-items: center;
             }
             .aside-2{
                 background: white;
@@ -41,8 +41,7 @@
             /*medium screens*/
             @media screen and (min-width: 500px){
                 .wrapper{
-                    flex-direction: column;
-                    flex-wrap: wrap;
+                    flex-direction: row;
                     box-shadow: 5px 5px black;
                 }
                 .wrapper > div{
