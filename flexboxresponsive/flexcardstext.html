@@ -53,7 +53,16 @@
             }
             /*large screens*/
             @media screen and (min-width: 800px){
-                
+                .wrapper{
+                    flex-direction: row;
+                    box-shadow: 5px 5px black;
+                }
+                .wrapper > *{
+                    box-shadow: 0px 0px black;
+                }
+                .aside{
+                    flex: 1 0 0px;
+                }
             }
         </style>
     </head>
