@@ -13,27 +13,21 @@
                 display: flex;
                 flex-direction: column-reverse;
             }
-            .wrapper > div{
+            .wrapper > *{
                 box-shadow: 5px 5px black;
-                margin: 5px;
+                padding: .5em;
             }
             .header{
                 background: maroon;
-                flex-basis: 100%;
                 padding: .6em;
-                margin: 0px;
             }
             .main{
                 background: lightblue;
                 text-align: left;
                 flex: 1;
             }
-            .aside{
-                flex: 1 0 0px;
-            }
             .aside-1{
                 background: yellow;
-                padding: .6em;
                 align-items: center;
             }
             .aside-2{
@@ -44,9 +38,6 @@
             }
             .footer{
                 background: green;
-                flex-basis: 100%;
-                padding: .6em;
-                margin: 0px;
             }
             /*medium screens*/
             @media screen and (min-width: 500px){
