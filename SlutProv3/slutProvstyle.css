@@ -6,9 +6,11 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 ul{
     display: flex;
-    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
 }
 li{
     background-color: grey;
@@ -28,6 +30,7 @@ li{
 #bigButtons > div{
     box-shadow: 0.1em 0.1em maroon;
     flex: 1;
+    background-color: gray;
 }
 .fa-chart-pie{
     color: yellow;
