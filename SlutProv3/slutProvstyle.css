@@ -6,16 +6,17 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+#information{
+    flex-direction: row;
+}
 ul{
     display: flex;
-    list-style-type: none;
-    justify-content: center;
+    
 }
 li{
     background-color: grey;
     box-shadow: 0.2em 0.2em solid rgb(221, 78, 102);
-    flex: 1 0 0em;
+    flex: 1;
     padding: .5em .5em;
     margin: .5em;
     text-transform: uppercase;
