@@ -23,11 +23,11 @@ li{
 #information{
     flex-direction: row;
     background-color: grey;
-    box-shadow: 0.2em 0.2em solid rgb(221, 78, 102);
+    box-shadow: 1em 1em solid rgb(221, 78, 102);
     flex: 1;
 }
 #bigButtons > *{
-    box-shadow: 0.1em 0.1em maroon;
+    box-shadow: 0.7em 0.7em maroon;
     flex: 1;
     background-color: gray;
 
