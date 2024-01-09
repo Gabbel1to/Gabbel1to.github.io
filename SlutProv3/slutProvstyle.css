@@ -25,7 +25,7 @@ li{
     box-shadow: 0.2em 0.2em solid rgb(221, 78, 102);
     flex: 1;
 }
-#bigButtons > div{
+#bigButtons > *{
     box-shadow: 0.1em 0.1em maroon;
     flex: 1;
     background-color: gray;
