@@ -13,7 +13,8 @@ body{
 #tjänst{
     background-color: grey;
     box-shadow: 0.2em 0.2em solid rgb(221, 78, 102);
-    flex: 1;
+
+    flex-basis: 100%;
 }
 #information{
     display: flex;
