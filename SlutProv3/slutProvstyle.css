@@ -6,15 +6,17 @@ body{
     display: flex;
     flex-direction: column;
 }
-#nav{
+ul{
     display: flex;
     flex-direction: column;
 }
-#tjänst{
+li{
     background-color: grey;
     box-shadow: 0.2em 0.2em solid rgb(221, 78, 102);
-
-    flex-basis: 100%;
+    flex: 1 0 0em;
+    padding: .5em .5em;
+    margin: .5em;
+    text-transform: uppercase;
 }
 #information{
     display: flex;
