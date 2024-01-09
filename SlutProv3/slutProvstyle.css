@@ -23,3 +23,14 @@ body{
 #bigButtons > div{
     box-shadow: 0.1em 0.1em maroon;
 }
+.fa-chart-pie{
+    color: yellow;
+    rotate: 90;
+}
+.fa-window-maximize{
+    color: blue;
+}
+.fa-phone{
+    color: green;
+    rotate: 180;
+}
