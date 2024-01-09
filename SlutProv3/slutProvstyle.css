@@ -13,15 +13,18 @@ body{
 #tjänst{
     background-color: grey;
     box-shadow: 0.2em 0.2em solid rgb(221, 78, 102);
+    flex: 1;
 }
 #information{
     display: flex;
     flex-direction: row;
     background-color: grey;
     box-shadow: 0.2em 0.2em solid rgb(221, 78, 102);
+    flex: 1
 }
 #bigButtons > div{
     box-shadow: 0.1em 0.1em maroon;
+    flex: 1;
 }
 .fa-chart-pie{
     color: yellow;
