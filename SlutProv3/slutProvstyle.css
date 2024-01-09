@@ -2,7 +2,7 @@ body{
     background-color: turquoise;
 
 }
-#smallButtons{
+#smallButtons > *{
     text-transform: uppercase;
     box-shadow: 0.2em 0.2em solid rgb(216, 89, 110);
     text-align: center;
