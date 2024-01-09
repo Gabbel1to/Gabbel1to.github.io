@@ -12,6 +12,7 @@ body{
     background-color: gray;
     width: 90vw;
     height: 3em;
+    list-style-type: none;
 }
 #information{
     display: flex;
