@@ -1,6 +1,6 @@
 body{
     background-color: lightgreen;
-
+    justify-content: center;
 }
 .all{
     display: flex;
@@ -29,6 +29,7 @@ li{
     box-shadow: 0.1em 0.1em maroon;
     flex: 1;
     background-color: gray;
+
 }
 .fa-chart-pie{
     color: yellow;
