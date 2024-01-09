@@ -8,7 +8,9 @@ body{
 }
 ul{
     display: flex;
-    
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
 }
 li{
     background-color: grey;
@@ -19,7 +21,6 @@ li{
     text-transform: uppercase;
 }
 #information{
-    display: flex;
     flex-direction: row;
     background-color: grey;
     box-shadow: 0.2em 0.2em solid rgb(221, 78, 102);
