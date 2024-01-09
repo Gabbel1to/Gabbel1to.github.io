@@ -6,19 +6,19 @@ body{
     display: flex;
     flex-direction: column;
 }
-#nav > *{
-    text-transform: uppercase;
-    box-shadow: 0.2em 0.2em solid rgb(216, 89, 110);
-    text-align: center;
+#nav{
     display: flex;
-    background-color: gray;
-    width: 90vw;
-    height: 3em;
-    list-style-type: none;
+    flex-direction: column;
+}
+#tjänst{
+    background-color: grey;
+    box-shadow: 0.2em 0.2em solid rgb(221, 78, 102);
 }
 #information{
     display: flex;
     flex-direction: row;
+    background-color: grey;
+    box-shadow: 0.2em 0.2em solid rgb(221, 78, 102);
 }
 #bigButtons > div{
     box-shadow: 0.1em 0.1em maroon;
